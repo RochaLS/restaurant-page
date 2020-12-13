@@ -1,1 +1,3 @@
-console.log('Its working!');
+import { loadPage } from './modules/initial-load.js'
+
+loadPage();
