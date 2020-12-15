@@ -1,3 +1,5 @@
+import { reset } from './helpers/reset.js';
+
 const content = document.getElementById('content');
 const banner = document.createElement('div');
 const bannerText = document.createElement('div');
@@ -20,6 +22,7 @@ p.textContent = 'Car rides are evil shred all toilet paper and spread around the
 }
 
 function loadHomePage() {
+    reset();
     elementSetup();
     content.appendChild(banner);
     banner.appendChild(bannerText);

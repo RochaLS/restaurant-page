@@ -1,4 +1,9 @@
 import { loadHomePage } from './home.js'
+import { loadMenuPage } from './menu.js'
+
+function loadContactPage() {
+
+}
 
 function createNavbar() {
     const ul = document.createElement('ul');
@@ -9,11 +14,13 @@ function createNavbar() {
     logoAnchor.appendChild(logo);
     ul.appendChild(logoAnchor);
 
+    const loader = [loadContactPage, loadMenuPage, loadHomePage];
     const options = ['Contact', 'Menu', 'Home'];
     for (let i = 0; i < 3; i++) {
         const li = document.createElement('li');
         const a = document.createElement('a');
         a.textContent = options[i];
+        a.addEventListener('click', loader[i]);
         li.appendChild(a);
         ul.appendChild(li);
     }
