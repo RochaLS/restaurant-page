@@ -1,9 +1,6 @@
-import { loadHomePage } from './home.js'
-import { loadMenuPage } from './menu.js'
-
-function loadContactPage() {
-
-}
+import { loadHomePage } from './home.js';
+import { loadMenuPage } from './menu.js';
+import { loadContactPage } from './contact.js';
 
 function createNavbar() {
     const ul = document.createElement('ul');
@@ -11,6 +8,7 @@ function createNavbar() {
     const logoAnchor = document.createElement('a');
     const logo = document.createElement('i');
     logo.classList.add('fas', 'fa-pizza-slice', 'logo');
+    logoAnchor.addEventListener('click', loadHomePage);
     logoAnchor.appendChild(logo);
     ul.appendChild(logoAnchor);
 
@@ -31,6 +29,7 @@ function createNavbar() {
 
 function loadInitialPage() {
     createNavbar();
-    loadHomePage();
+    // loadHomePage();
+    loadContactPage();
 }
 export { loadInitialPage };
