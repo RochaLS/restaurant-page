@@ -1,3 +1,3 @@
-import { loadPage } from './modules/initial-load.js'
+import { loadInitialPage } from './modules/initial-load.js'
 
-loadPage();
+loadInitialPage();
