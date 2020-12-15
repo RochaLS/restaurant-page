@@ -15,6 +15,42 @@ footer {
   margin: 5px;
 }
 
+.navbar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar li {
+  float: right;
+}
+.navbar .logo {
+  float: left;
+  color: #811c19;
+  text-align: center;
+  padding: 25px 16px;
+  font-size: 24px;
+}
+
+.navbar li a {
+  display: block;
+  color: #811c19;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: white;
+  opacity: 0.6;
+}
+
+.navbar li .active {
+  color: white;
+  background-color: #811c19;
+}
+
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://images.unsplash.com/photo-1595026506669-1e937fc6b9e6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
