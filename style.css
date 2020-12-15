@@ -17,7 +17,7 @@ footer {
   margin: 5px;
 }
 
-/** Home Page Style **/
+/** Navbar Style **/
 
 .navbar {
   list-style-type: none;
@@ -34,6 +34,12 @@ footer {
   text-align: center;
   padding: 25px 16px;
   font-size: 24px;
+}
+
+.navbar .logo:hover {
+  background-color: white;
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 .navbar li a {
@@ -55,6 +61,8 @@ footer {
   color: white;
   background-color: #811c19;
 }
+
+/** Home Page Style **/
 
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -126,4 +134,38 @@ footer {
 }
 .cardSubHeader {
   font-size: 20px;
+}
+
+/** Contact Page Style **/
+
+.contactPageContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contentBox {
+  background-color: white;
+  height: 600px;
+  width: 50%;
+  color: #811c19;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.contactHeader {
+  margin-top: 10px;
+}
+
+.contactInfo {
+  margin-top: 10px;
+  font-size: 22px;
+}
+
+.map {
+  height: 450px;
+  width: 90%;
+  margin: 10px auto auto auto;
+  border-radius: 10px;
 }
