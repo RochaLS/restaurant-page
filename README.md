@@ -4,7 +4,7 @@
 
 ## Description
 
-On this project I created a restaurant website where users can browse between multiple pages.
+In this project, I created a restaurant website where users can browse between multiple pages.
 
 ### Technologies used in this project
 
