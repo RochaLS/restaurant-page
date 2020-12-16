@@ -29,7 +29,6 @@ function createNavbar() {
 
 function loadInitialPage() {
     createNavbar();
-    // loadHomePage();
-    loadContactPage();
+    loadHomePage();
 }
 export { loadInitialPage };
