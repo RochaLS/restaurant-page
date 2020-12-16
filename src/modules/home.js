@@ -18,7 +18,7 @@ mainHeader.textContent = `Rocha's Italian Restaurant`;
 subHeader.className ='subHeader';
 subHeader.textContent = 'Your Favorite Italian Food at Your Door!'
 description.className = 'description';
-p.textContent = 'Car rides are evil shred all toilet paper and spread around the house or eat half my food and ask for more or paw at beetle and eat it before it gets away. Trip owner up in kitchen i want food stare at ceiling, and claw drapes meow and walk away i like big cats and i can not lie so try to jump onto window and fall while scratching at wall. Scratch at door to be let outside, get let out then scratch at door immmediately after to be let back in proudly present butt to human so cough hairball on conveniently placed pants time to go zooooom, mesmerizing birds good now the other hand, too. '
+p.textContent = `Rocha's Italian Restaurant is one of the most recognized restaurants in the whole Spain, with numerous prizes for such quality food and amazing chefs from all around the world. Come visit us in the lovely and famous neighbourhood called Vila de Gràcia close to the Gràcia subway station.`
 }
 
 function loadHomePage() {
